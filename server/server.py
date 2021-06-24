@@ -4,30 +4,34 @@ from asyncio.exceptions import TimeoutError
 import logging
 import argparse
 
-logging.basicConfig(filename='server_log', level=logging.INFO,
-        format='%(asctime)s:%(levelname)s:%(message)s')
+logging.basicConfig(
+    filename="server_log",
+    level=logging.INFO,
+    format="%(asctime)s:%(levelname)s:%(message)s",
+)
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-t', '--test', action='store_true')
+parser.add_argument("-t", "--test", action="store_true")
 args = parser.parse_args()
 
 writers_list = []
 
 
-def broadcast(addr_client, message):
+async def broadcast(addr_client, message, writer):
     # SENDING MESSAGE TO ALL CLIENTS
-    logging.info(f'[{addr_client}] {message}')
-    print(f'[{addr_client}] {message}')
+    logging.info(f"[{addr_client}] {message}")
+    print(f"[{addr_client}] {message}")
     for w in writers_list:
         w.write(f"[{addr_client}] {message}".encode())
+        await writer.drain()
 
 
-def new_client(writer):
+async def new_client(writer):
     # FIRST STEPS WHEN A CLIENT JOIN THE SERVER
     writers_list.append(writer)
-    addr_client = writer.get_extra_info('peername')
+    addr_client = writer.get_extra_info("peername")
     join_message = f"{addr_client} is connected"
-    broadcast('SERVER', join_message)
+    await broadcast("SERVER", join_message, writer)
     return addr_client
 
 
@@ -45,15 +49,14 @@ async def check_connection(reader):
         try:
             await asyncio.wait_for(reader.readline(), timeout=0.1)
             return False
-        except (ConnectionResetError,
-        ConnectionAbortedError, BrokenPipeError):
+        except (ConnectionResetError, ConnectionAbortedError, BrokenPipeError):
             return False
     except TimeoutError:
         return True
 
 
 async def handle(reader, writer):
-    addr_client = new_client(writer)
+    addr_client = await new_client(writer)
     lost_connection_message = f" Connection lost with {addr_client}"
     only_space = 0
     while True:
@@ -62,15 +65,13 @@ async def handle(reader, writer):
             connection = await check_connection(reader)
             if connection is False:
                 writers_list.remove(writer)
-                broadcast("SERVER", lost_connection_message)
-                await writer.drain()
+                await broadcast("SERVER", lost_connection_message, writer)
                 break
             if check_spacebar != only_space:
-                broadcast(addr_client, client_message)
-                await writer.drain()
+                await broadcast(addr_client, client_message, writer)
         except ConnectionResetError:
             writers_list.remove(writer)
-            broadcast("SERVER", lost_connection_message)
+            await broadcast("SERVER", lost_connection_message, writer)
             break
     writer.close()
 
@@ -82,28 +83,27 @@ def ip_selector():
         PORT = 5051
     else:
         IP = input('Choose your IP (type "my" if the server use your own IP): ')
-        if IP.upper() == 'MY':
+        if IP.upper() == "MY":
             IP = socket.gethostbyname(socket.gethostname())
         PORT = 5051
-    return IP, PORT    
+    return IP, PORT
 
 
 async def main():
     IP, PORT = ip_selector()
     # OPEN SERVER
     try:
-        server = await asyncio.start_server(
-            handle, IP, PORT)
+        server = await asyncio.start_server(handle, IP, PORT)
         addr_servidor = server.sockets[0].getsockname()
-        logging.info(f'[STARTIG] Server is running in {addr_servidor}')
-        print(f'[STARTIG] Server is running in {addr_servidor}')
+        logging.info(f"[STARTIG] Server is running in {addr_servidor}")
+        print(f"[STARTIG] Server is running in {addr_servidor}")
     except Exception:
-        logging.info('[SERVER] failed to creating server')
-        print('[SERVER] failed to creating server')
+        logging.info("[SERVER] failed to creating server")
+        print("[SERVER] failed to creating server")
     else:
         async with server:
             await server.serve_forever()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     asyncio.run(main())
