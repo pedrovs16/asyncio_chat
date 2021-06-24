@@ -1,22 +1,21 @@
 import asyncio
 from asyncio.tasks import gather
-import socket
 import aioconsole
 import argparse
 
-parser = argparse.ArgumentParser()
-parser.add_argument('-t', '--test', action='store_true')
-parser.add_argument(
-    '-r', '--read', action='store_true', help='Client only listen')
-args = parser.parse_args()
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-t", "--test", action="store_true")
+    parser.add_argument("-r", "--read", action="store_true", help="Client only listen")
+    return parser.parse_args()
 
 
-async def read_message(reader, writer):
+async def read_task(reader, writer):
     while True:
         try:
-            readed_message = await reader.read(100)
-            print(f'{readed_message.decode()}')
-            check_connection_message = ' '
+            await read_message(reader)
+            check_connection_message = " "
             writer.write(check_connection_message.encode())
             await writer.drain()
         except Exception as error:
@@ -24,50 +23,54 @@ async def read_message(reader, writer):
             break
 
 
-async def write_message(writer):
-    writed_message = ""
+async def read_message(reader):
+    read_message = await reader.read(100)
+    print(f"{read_message.decode()}")
+
+
+async def write_task(writer):
+    message = ""
     try:
-        while writed_message.upper() != 'EXIT':
-            writed_message = await aioconsole.ainput('')
-            writer.write(writed_message.encode())
-            await writer.drain()
+        while message.upper() != "EXIT":
+            message = await handle_message(writer)
         writer.close()
     except Exception as error:
         print(error)
         writer.close()
 
 
-def ip_selector():
-    # TEST MODE OR NOT
-    if args.test:
-        IP = socket.gethostbyname(socket.gethostname())
-        PORT = 5051
-    else:
-        IP = input(
-            'Choose the IP server (type "my" if the client use your own IP): ')
-        if IP.upper() == 'MY':
-            IP = socket.gethostbyname(socket.gethostname())
-        PORT = 5051
-    return IP, PORT
+async def handle_message(writer):
+    message = await write_input()
+    await write_message(message, writer)
+    return message
+
+
+async def write_message(message, writer):
+    writer.write(message.encode())
+    await writer.drain()
+
+
+async def write_input():
+    return await aioconsole.ainput("")
 
 
 async def main():
-    IP, PORT = ip_selector()
     try:
-        reader, writer = await asyncio.open_connection(
-            IP, PORT)
-        addr_client = writer.get_extra_info('peername')
-        print(f'Joined to the server {addr_client}')
+        reader, writer = await asyncio.open_connection("localhost", 5051)
+        print(f"Joined to the server")
         print('To disconnect type "EXIT"')
     except Exception:
-        print('Server not found')
+        print("Server not found")
     else:
         if args.read:
-            await read_message(reader, writer)
+            await read_task(reader, writer)
         else:
-            await gather(read_message(reader, writer), write_message(
-                writer))
+            await gather(read_task(reader, writer), write_task(writer))
+        # if not args.read:
+        #    asyncio.create_task(write_message(writer))
+        # asyncio.create_task(read_message(reader, writer))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
+    args = parse_args()
     asyncio.run(main())
