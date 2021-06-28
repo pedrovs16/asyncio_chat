@@ -1,883 +1,132 @@
-
-2021-06-24 15:48:08,937:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
-2021-06-24 15:48:15,915:INFO:[SERVER] ('::1', 49440, 0, 0) is connected
-2021-06-24 15:48:15,931:INFO:[SERVER]  Connection lost with ('::1', 49440, 0, 0)
-2021-06-24 16:07:14,042:INFO:[STARTING] Server is running
-2021-06-24 16:07:17,752:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-4' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:61> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 62, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 37, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:08:09,670:INFO:[STARTING] Server is running
-2021-06-24 16:08:12,198:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-4' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:13:48,186:INFO:[STARTING] Server is running
-2021-06-24 16:13:50,516:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-4' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:14:48,820:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-6' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:14:54,772:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-8' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:16:43,596:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-10' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:17:13,514:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-12' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:17:34,744:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-14' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:17:46,816:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-16' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:21:34,151:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-18' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:21:55,626:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-20' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:22:10,409:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-22' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:22:17,288:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-24' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:36:37,209:INFO:[STARTING] Server is running
-2021-06-24 16:36:42,256:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-4' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:38:09,567:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-6' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:38:12,333:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-8' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:38:21,695:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-10' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:39:02,351:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-12' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:39:35,364:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-14' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:39:42,717:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-16' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:39:53,039:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-18' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:40:10,323:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-20' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:40:30,067:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-22' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:41:04,355:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-24' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:41:17,277:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-26' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:41:54,404:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-28' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:42:45,593:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-30' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:42:49,776:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-32' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:43:04,251:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-34' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:43:18,364:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-36' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:43:52,864:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-38' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:44:38,512:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-40' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:44:51,268:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-42' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:45:04,780:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-44' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:48:13,581:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-46' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 77, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:49:25,808:INFO:[STARTING] Server is running
-2021-06-24 16:49:28,524:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-4' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 51, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 82, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:50:25,135:INFO:[STARTING] Server is running
-2021-06-24 16:50:27,361:INFO:[SERVER]  Connection lost with ('::1', 50234, 0, 0)
-2021-06-24 16:52:01,110:INFO:[STARTING] Server is running
-2021-06-24 16:52:03,247:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-4' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 81, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:54:42,474:INFO:[STARTING] Server is running
-2021-06-24 16:54:44,564:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-4' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 81, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:55:38,517:INFO:[STARTING] Server is running
-2021-06-24 16:55:40,416:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-4' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 81, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:56:30,560:INFO:[STARTING] Server is running
-2021-06-24 16:57:12,985:INFO:[STARTING] Server is running
-2021-06-24 16:57:14,954:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-4' coro=<handle_connection() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:49> exception=TypeError('broadcast() takes 2 positional arguments but 3 were given')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 50, in handle_connection
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 81, in new_client
-    await broadcast("SERVER", join_message, writer)
-TypeError: broadcast() takes 2 positional arguments but 3 were given
-2021-06-24 16:59:31,257:INFO:[STARTIG] Server is running in ('127.0.1.1', 5051)
-2021-06-24 17:00:51,979:INFO:[STARTIG] Server is running in ('127.0.1.1', 5051)
-2021-06-24 17:01:24,570:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:01:26,622:INFO:[SERVER] ('::1', 50388, 0, 0) is connected
-2021-06-24 17:01:27,808:INFO:[('::1', 50388, 0, 0)] a
-2021-06-24 17:01:28,578:INFO:[('::1', 50388, 0, 0)] v
-2021-06-24 17:02:50,139:INFO:[SERVER]  Connection lost with ('::1', 50388, 0, 0)
-2021-06-24 17:02:51,896:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:02:53,723:INFO:[SERVER] ('::1', 50416, 0, 0) is connected
-2021-06-24 17:02:54,442:INFO:[('::1', 50416, 0, 0)] a
-2021-06-24 17:02:58,363:INFO:[SERVER]  Connection lost with ('::1', 50416, 0, 0)
-2021-06-24 17:03:21,472:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:03:23,306:INFO:[SERVER] ('::1', 50426, 0, 0) is connected
-2021-06-24 17:03:25,928:INFO:[('::1', 50426, 0, 0)] s
-2021-06-24 17:03:26,663:INFO:[SERVER]  Connection lost with ('::1', 50426, 0, 0)
-2021-06-24 17:04:58,021:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:05:00,789:INFO:[SERVER] ('::1', 50446, 0, 0) is connected
-2021-06-24 17:05:43,023:INFO:[SERVER] ('::1', 50454, 0, 0) is connected
-2021-06-24 17:05:50,669:INFO:[('::1', 50446, 0, 0)] a
-2021-06-24 17:05:51,737:INFO:[('::1', 50446, 0, 0)] v
-2021-06-24 17:05:53,697:INFO:[('::1', 50446, 0, 0)] e
-2021-06-24 17:05:57,138:INFO:[SERVER]  Connection lost with ('::1', 50446, 0, 0)
-2021-06-24 17:05:59,557:INFO:[('::1', 50454, 0, 0)] a
-2021-06-24 17:06:00,045:INFO:[('::1', 50454, 0, 0)] a
-2021-06-24 17:06:00,595:INFO:[('::1', 50454, 0, 0)] v
-2021-06-24 17:06:01,535:INFO:[SERVER]  Connection lost with ('::1', 50454, 0, 0)
-2021-06-24 17:07:26,340:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:07:28,833:INFO:[SERVER] ('::1', 50472, 0, 0) is connected
-2021-06-24 17:07:33,649:INFO:[('::1', 50472, 0, 0)] a
-2021-06-24 17:07:34,953:INFO:[('::1', 50472, 0, 0)] v
-2021-06-24 17:07:40,654:INFO:[SERVER]  Connection lost with ('::1', 50472, 0, 0)
-2021-06-24 17:09:38,543:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:09:40,771:INFO:[SERVER] ('::1', 50494, 0, 0) is connected
-2021-06-24 17:09:45,025:INFO:[SERVER] ('::1', 50496, 0, 0) is connected
-2021-06-24 17:09:46,732:INFO:[('::1', 50494, 0, 0)] a
-2021-06-24 17:09:47,717:INFO:[('::1', 50494, 0, 0)] a
-2021-06-24 17:09:48,353:INFO:[('::1', 50494, 0, 0)] v
-2021-06-24 17:09:48,844:INFO:[SERVER]  Connection lost with ('::1', 50494, 0, 0)
-2021-06-24 17:09:49,754:INFO:[SERVER]  Connection lost with ('::1', 50496, 0, 0)
-2021-06-24 17:11:16,788:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
-2021-06-24 17:11:19,090:INFO:[SERVER] ('::1', 50518, 0, 0) is connected
-2021-06-24 17:11:19,102:INFO:[SERVER]  Connection lost with ('::1', 50518, 0, 0)
-2021-06-24 17:11:42,065:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
-2021-06-24 17:12:42,409:INFO:[SERVER] ('::1', 50538, 0, 0) is connected
-2021-06-24 17:13:01,134:INFO:[SERVER]  Connection lost with ('::1', 50538, 0, 0)
-2021-06-24 17:13:02,200:INFO:[SERVER] ('::1', 50540, 0, 0) is connected
-2021-06-24 17:13:03,979:INFO:[('::1', 50540, 0, 0)] a
-2021-06-24 17:15:55,597:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:15:57,403:INFO:[SERVER] ('::1', 50568, 0, 0) is connected
-2021-06-24 17:16:10,599:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:16:12,651:INFO:[SERVER] ('::1', 50576, 0, 0) is connected
-2021-06-24 17:16:13,331:INFO:[('::1', 50576, 0, 0)] a
-2021-06-24 17:16:13,931:INFO:[('::1', 50576, 0, 0)] v
-2021-06-24 17:16:15,611:INFO:[SERVER]  Connection lost with ('::1', 50576, 0, 0)
-2021-06-24 17:16:17,168:INFO:[SERVER] ('::1', 50578, 0, 0) is connected
-2021-06-24 17:16:21,078:INFO:[SERVER] ('::1', 50580, 0, 0) is connected
-2021-06-24 17:16:23,190:INFO:[('::1', 50580, 0, 0)] a
-2021-06-24 17:16:24,156:INFO:[('::1', 50580, 0, 0)] v]
-2021-06-24 17:16:24,551:INFO:[('::1', 50580, 0, 0)] v
-2021-06-24 17:16:24,960:INFO:[('::1', 50580, 0, 0)] v
-2021-06-24 17:16:25,244:INFO:[SERVER]  Connection lost with ('::1', 50580, 0, 0)
-2021-06-24 17:16:27,638:INFO:[SERVER] ('::1', 50582, 0, 0) is connected
-2021-06-24 17:16:28,457:INFO:[('::1', 50582, 0, 0)] a
-2021-06-24 17:16:29,280:INFO:[('::1', 50582, 0, 0)] v
-2021-06-24 17:16:29,739:INFO:[('::1', 50582, 0, 0)] c
-2021-06-24 17:16:30,984:INFO:[SERVER]  Connection lost with ('::1', 50582, 0, 0)
-2021-06-24 17:16:33,453:INFO:[SERVER]  Connection lost with ('::1', 50578, 0, 0)
-2021-06-24 17:19:06,492:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
-2021-06-24 17:19:08,669:INFO:[SERVER] ('::1', 50608, 0, 0) is connected
-2021-06-24 17:19:09,558:INFO:[('::1', 50608, 0, 0)] a
-2021-06-24 17:19:10,088:INFO:[('::1', 50608, 0, 0)] v
-2021-06-24 17:19:10,813:INFO:[SERVER]  Connection lost with ('::1', 50608, 0, 0)
-2021-06-24 17:21:06,915:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
-2021-06-24 17:21:08,720:INFO:[SERVER] ('::1', 50628, 0, 0) is connected
-2021-06-24 17:21:09,366:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-4' coro=<handle() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=ValueError('Separator is not found, and chunk exceed the limit')>
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/asyncio/streams.py", line 540, in readline
-    line = await self.readuntil(sep)
-  File "/usr/lib/python3.9/asyncio/streams.py", line 618, in readuntil
-    raise exceptions.LimitOverrunError(
-asyncio.exceptions.LimitOverrunError: Separator is not found, and chunk exceed the limit
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 69, in handle
-    connection = await check_connection(reader)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 54, in check_connection
-    await asyncio.wait_for(reader.readline(), timeout=0.1)
-  File "/usr/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
-    return fut.result()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 549, in readline
-    raise ValueError(e.args[0])
-ValueError: Separator is not found, and chunk exceed the limit
-2021-06-24 17:21:38,312:INFO:[SERVER] ('::1', 50638, 0, 0) is connected
-2021-06-24 17:21:39,214:INFO:[('::1', 50638, 0, 0)] a
-2021-06-24 17:21:39,215:INFO:[SERVER]  Connection lost with ('::1', 50638, 0, 0)
-2021-06-24 17:21:39,215:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-13' coro=<handle() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=ConnectionResetError(104, 'Connection reset by peer')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 75, in handle
-    await broadcast(addr_client, client_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 387, in drain
-    await self._protocol._drain_helper()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 190, in _drain_helper
-    raise ConnectionResetError('Connection lost')
-ConnectionResetError: Connection lost
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 78, in handle
-    await broadcast("SERVER", lost_connection_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/usr/lib/python3.9/asyncio/selector_events.py", line 918, in write
-    n = self._sock.send(data)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2021-06-24 17:22:09,112:INFO:[SERVER] ('::1', 50644, 0, 0) is connected
-2021-06-24 17:22:09,112:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-17' coro=<handle() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=ConnectionResetError(104, 'Connection reset by peer')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 75, in handle
-    await broadcast(addr_client, client_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 387, in drain
-    await self._protocol._drain_helper()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 190, in _drain_helper
-    raise ConnectionResetError('Connection lost')
-ConnectionResetError: Connection lost
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 78, in handle
-    await broadcast("SERVER", lost_connection_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/usr/lib/python3.9/asyncio/selector_events.py", line 918, in write
-    n = self._sock.send(data)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2021-06-24 17:22:37,278:INFO:[SERVER] ('::1', 50656, 0, 0) is connected
-2021-06-24 17:22:37,278:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-19' coro=<handle() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=ConnectionResetError(104, 'Connection reset by peer')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 75, in handle
-    await broadcast(addr_client, client_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 387, in drain
-    await self._protocol._drain_helper()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 190, in _drain_helper
-    raise ConnectionResetError('Connection lost')
-ConnectionResetError: Connection lost
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 78, in handle
-    await broadcast("SERVER", lost_connection_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/usr/lib/python3.9/asyncio/selector_events.py", line 918, in write
-    n = self._sock.send(data)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2021-06-24 17:22:41,617:INFO:[SERVER] ('::1', 50660, 0, 0) is connected
-2021-06-24 17:22:41,617:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-21' coro=<handle() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=ConnectionResetError(104, 'Connection reset by peer')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 75, in handle
-    await broadcast(addr_client, client_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 387, in drain
-    await self._protocol._drain_helper()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 190, in _drain_helper
-    raise ConnectionResetError('Connection lost')
-ConnectionResetError: Connection lost
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 78, in handle
-    await broadcast("SERVER", lost_connection_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/usr/lib/python3.9/asyncio/selector_events.py", line 918, in write
-    n = self._sock.send(data)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2021-06-24 17:22:54,392:INFO:[SERVER] ('::1', 50664, 0, 0) is connected
-2021-06-24 17:22:54,392:WARNING:socket.send() raised exception.
-2021-06-24 17:22:54,393:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-23' coro=<handle() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=ConnectionResetError(104, 'Connection reset by peer')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 75, in handle
-    await broadcast(addr_client, client_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 387, in drain
-    await self._protocol._drain_helper()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 190, in _drain_helper
-    raise ConnectionResetError('Connection lost')
-ConnectionResetError: Connection lost
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 78, in handle
-    await broadcast("SERVER", lost_connection_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/usr/lib/python3.9/asyncio/selector_events.py", line 918, in write
-    n = self._sock.send(data)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2021-06-24 17:23:07,040:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:23:09,408:INFO:[SERVER] ('::1', 50670, 0, 0) is connected
-2021-06-24 17:23:10,169:INFO:[('::1', 50670, 0, 0)] a
-2021-06-24 17:23:10,879:INFO:[('::1', 50670, 0, 0)] v
-2021-06-24 17:24:04,406:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:24:06,274:INFO:[SERVER] ('::1', 50680, 0, 0) is connected
-2021-06-24 17:24:07,154:INFO:[('::1', 50680, 0, 0)] a
-2021-06-24 17:24:07,885:INFO:[('::1', 50680, 0, 0)] v
-2021-06-24 17:24:59,725:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:25:01,605:INFO:[SERVER] ('::1', 50694, 0, 0) is connected
-2021-06-24 17:25:02,356:INFO:[('::1', 50694, 0, 0)] a
-2021-06-24 17:25:03,164:INFO:[('::1', 50694, 0, 0)] v
-2021-06-24 17:25:57,105:INFO:[SERVER]  Connection lost with ('::1', 50694, 0, 0)
-2021-06-24 17:26:23,960:INFO:[SERVER] ('::1', 50714, 0, 0) is connected
-2021-06-24 17:26:24,591:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-12' coro=<handle() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=ValueError('Separator is not found, and chunk exceed the limit')>
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/asyncio/streams.py", line 540, in readline
-    line = await self.readuntil(sep)
-  File "/usr/lib/python3.9/asyncio/streams.py", line 618, in readuntil
-    raise exceptions.LimitOverrunError(
-asyncio.exceptions.LimitOverrunError: Separator is not found, and chunk exceed the limit
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 69, in handle
-    connection = await check_connection(reader)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 54, in check_connection
-    await asyncio.wait_for(reader.readline(), timeout=0.1)
-  File "/usr/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
-    return fut.result()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 549, in readline
-    raise ValueError(e.args[0])
-ValueError: Separator is not found, and chunk exceed the limit
-2021-06-24 17:26:45,479:INFO:[SERVER] ('::1', 50722, 0, 0) is connected
-2021-06-24 17:26:46,088:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-20' coro=<handle() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=ValueError('Separator is not found, and chunk exceed the limit')>
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/asyncio/streams.py", line 540, in readline
-    line = await self.readuntil(sep)
-  File "/usr/lib/python3.9/asyncio/streams.py", line 618, in readuntil
-    raise exceptions.LimitOverrunError(
-asyncio.exceptions.LimitOverrunError: Separator is not found, and chunk exceed the limit
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 69, in handle
-    connection = await check_connection(reader)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 54, in check_connection
-    await asyncio.wait_for(reader.readline(), timeout=0.1)
-  File "/usr/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
-    return fut.result()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 549, in readline
-    raise ValueError(e.args[0])
-ValueError: Separator is not found, and chunk exceed the limit
-2021-06-24 17:26:55,804:INFO:[SERVER] ('::1', 50728, 0, 0) is connected
-2021-06-24 17:26:55,805:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-28' coro=<handle() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=ConnectionResetError('Connection lost')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 387, in drain
-    await self._protocol._drain_helper()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 190, in _drain_helper
-    raise ConnectionResetError('Connection lost')
-ConnectionResetError: Connection lost
-2021-06-24 17:27:25,252:INFO:[SERVER] ('::1', 50740, 0, 0) is connected
-2021-06-24 17:27:25,253:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-30' coro=<handle() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=ConnectionResetError(104, 'Connection reset by peer')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/usr/lib/python3.9/asyncio/selector_events.py", line 918, in write
-    n = self._sock.send(data)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2021-06-24 17:27:45,159:INFO:[SERVER] ('::1', 50748, 0, 0) is connected
-2021-06-24 17:27:45,159:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-32' coro=<handle() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=ConnectionResetError(104, 'Connection reset by peer')>
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 63, in handle
-    addr_client = await new_client(writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 38, in new_client
-    await broadcast("SERVER", join_message, writer)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 30, in broadcast
-    await w.drain()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 375, in drain
-    raise exc
-  File "/usr/lib/python3.9/asyncio/selector_events.py", line 918, in write
-    n = self._sock.send(data)
-ConnectionResetError: [Errno 104] Connection reset by peer
-2021-06-24 17:27:50,968:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
-2021-06-24 17:27:52,955:INFO:[SERVER] ('::1', 50752, 0, 0) is connected
-2021-06-24 17:27:53,646:INFO:[('::1', 50752, 0, 0)] a
-2021-06-24 17:27:54,430:INFO:[('::1', 50752, 0, 0)] v
-2021-06-24 17:28:21,694:INFO:[SERVER]  Connection lost with ('::1', 50752, 0, 0)
-2021-06-24 17:28:23,113:INFO:[SERVER] ('::1', 50760, 0, 0) is connected
-2021-06-24 17:28:23,718:INFO:[('::1', 50760, 0, 0)] a
-2021-06-24 17:29:02,035:INFO:[SERVER]  Connection lost with ('::1', 50760, 0, 0)
-2021-06-24 17:29:02,978:INFO:[SERVER] ('::1', 50772, 0, 0) is connected
-2021-06-24 17:29:03,605:INFO:[('::1', 50772, 0, 0)] a
-2021-06-24 17:29:04,366:INFO:[SERVER]  Connection lost with ('::1', 50772, 0, 0)
-2021-06-24 17:29:14,784:INFO:[SERVER] ('::1', 50778, 0, 0) is connected
-2021-06-24 17:29:15,462:ERROR:Task exception was never retrieved
-future: <Task finished name='Task-24' coro=<handle() done, defined at /home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py:62> exception=ValueError('Separator is not found, and chunk exceed the limit')>
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/asyncio/streams.py", line 540, in readline
-    line = await self.readuntil(sep)
-  File "/usr/lib/python3.9/asyncio/streams.py", line 618, in readuntil
-    raise exceptions.LimitOverrunError(
-asyncio.exceptions.LimitOverrunError: Separator is not found, and chunk exceed the limit
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 69, in handle
-    connection = await check_connection(reader)
-  File "/home/pedroviana/Área de trabalho/Pelvis/projetos/asyncio_chat/server/create_server.py", line 54, in check_connection
-    await asyncio.wait_for(reader.readline(), timeout=0.1)
-  File "/usr/lib/python3.9/asyncio/tasks.py", line 481, in wait_for
-    return fut.result()
-  File "/usr/lib/python3.9/asyncio/streams.py", line 549, in readline
-    raise ValueError(e.args[0])
-ValueError: Separator is not found, and chunk exceed the limit
-2021-06-24 17:29:35,296:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:29:37,302:INFO:[SERVER] ('::1', 50790, 0, 0) is connected
-2021-06-24 17:29:38,199:INFO:[('::1', 50790, 0, 0)] a
-2021-06-24 17:29:39,931:INFO:[('::1', 50790, 0, 0)] v
-2021-06-24 17:29:40,723:INFO:[('::1', 50790, 0, 0)] c
-2021-06-24 17:29:42,622:INFO:[SERVER]  Connection lost with ('::1', 50790, 0, 0)
-2021-06-24 17:29:56,081:INFO:[SERVER] ('::1', 50798, 0, 0) is connected
-2021-06-24 17:29:57,382:INFO:[SERVER]  Connection lost with ('::1', 50798, 0, 0)
-2021-06-24 17:30:02,256:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
-2021-06-24 17:30:03,991:INFO:[SERVER] ('::1', 50806, 0, 0) is connected
-2021-06-24 17:30:04,585:INFO:[('::1', 50806, 0, 0)] a
-2021-06-24 17:30:05,178:INFO:[('::1', 50806, 0, 0)] v
-2021-06-24 17:30:06,202:INFO:[SERVER]  Connection lost with ('::1', 50806, 0, 0)
-2021-06-24 17:31:56,632:INFO:[SERVER] ('::1', 50826, 0, 0) is connected
-2021-06-24 17:31:57,310:INFO:[('::1', 50826, 0, 0)] a
-2021-06-24 17:31:57,911:INFO:[('::1', 50826, 0, 0)] v
-2021-06-24 17:32:07,294:INFO:[SERVER]  Connection lost with ('::1', 50826, 0, 0)
-2021-06-24 17:32:08,480:INFO:[SERVER] ('::1', 50832, 0, 0) is connected
-2021-06-24 17:32:08,488:INFO:[SERVER]  Connection lost with ('::1', 50832, 0, 0)
-2021-06-24 17:32:20,547:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:32:24,453:INFO:[SERVER] ('::1', 50844, 0, 0) is connected
-2021-06-24 17:32:25,264:INFO:[('::1', 50844, 0, 0)] a
-2021-06-24 17:32:25,894:INFO:[('::1', 50844, 0, 0)] v
-2021-06-24 17:32:28,308:INFO:[SERVER]  Connection lost with ('::1', 50844, 0, 0)
-2021-06-24 17:32:38,406:INFO:[SERVER] ('::1', 50850, 0, 0) is connected
-2021-06-24 17:32:39,367:INFO:[('::1', 50850, 0, 0)] a
-2021-06-24 17:32:40,124:INFO:[('::1', 50850, 0, 0)] v
-2021-06-24 17:32:42,559:INFO:[SERVER]  Connection lost with ('::1', 50850, 0, 0)
-2021-06-24 17:37:09,339:INFO:[SERVER] ('::1', 50868, 0, 0) is connected
-2021-06-24 17:37:09,940:INFO:[('::1', 50868, 0, 0)] a
-2021-06-24 17:37:10,418:INFO:[('::1', 50868, 0, 0)] v
-2021-06-24 17:37:11,446:INFO:[SERVER]  Connection lost with ('::1', 50868, 0, 0)
-2021-06-24 17:37:12,358:INFO:[SERVER] ('::1', 50872, 0, 0) is connected
-2021-06-24 17:37:14,555:INFO:[SERVER]  Connection lost with ('::1', 50872, 0, 0)
-2021-06-24 17:37:16,911:INFO:[SERVER] ('::1', 50874, 0, 0) is connected
-2021-06-24 17:41:16,332:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:41:18,223:INFO:[SERVER] ('::1', 50900, 0, 0) is connected
-2021-06-24 17:41:18,737:INFO:[('::1', 50900, 0, 0)] a
-2021-06-24 17:41:19,244:INFO:[('::1', 50900, 0, 0)] v
-2021-06-24 17:41:20,404:INFO:[SERVER]  Connection lost with ('::1', 50900, 0, 0)
-2021-06-24 17:41:56,314:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:41:58,158:INFO:[SERVER] ('::1', 50910, 0, 0) is connected
-2021-06-24 17:42:07,909:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
-2021-06-24 17:42:10,312:INFO:[SERVER] ('::1', 50918, 0, 0) is connected
-2021-06-24 17:42:10,971:INFO:[('::1', 50918, 0, 0)] a
-2021-06-24 17:42:11,560:INFO:[('::1', 50918, 0, 0)] v
-2021-06-24 17:42:12,344:INFO:[('::1', 50918, 0, 0)] c
-2021-06-24 17:42:13,540:INFO:[SERVER]  Connection lost with ('::1', 50918, 0, 0)
-2021-06-24 17:48:27,755:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
-2021-06-24 17:48:29,526:INFO:[SERVER] ('::1', 50946, 0, 0) is connected
-2021-06-24 17:48:30,274:INFO:[('::1', 50946, 0, 0)] a
-2021-06-24 17:48:30,771:INFO:[('::1', 50946, 0, 0)] v
-2021-06-24 17:48:32,632:INFO:[SERVER]  Connection lost with ('::1', 50946, 0, 0)
-2021-06-24 17:48:53,567:INFO:[SERVER] ('::1', 50950, 0, 0) is connected
-2021-06-24 17:48:54,441:INFO:[('::1', 50950, 0, 0)] a
-2021-06-24 17:48:55,257:INFO:[('::1', 50950, 0, 0)] v
-2021-06-24 17:48:57,463:INFO:[('::1', 50950, 0, 0)] c
-2021-06-24 17:48:58,238:INFO:[('::1', 50950, 0, 0)] exit
-2021-06-24 17:49:20,975:INFO:[SERVER]  Connection lost with ('::1', 50950, 0, 0)
-2021-06-24 17:49:21,946:INFO:[SERVER] ('::1', 50960, 0, 0) is connected
-2021-06-24 17:49:23,226:INFO:[SERVER]  Connection lost with ('::1', 50960, 0, 0)
-2021-06-24 17:49:25,527:INFO:[SERVER] ('::1', 50962, 0, 0) is connected
-2021-06-24 17:49:26,403:INFO:[('::1', 50962, 0, 0)] k
-2021-06-24 17:49:27,164:INFO:[('::1', 50962, 0, 0)] k
-2021-06-24 17:51:28,668:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
-2021-06-24 17:51:31,049:INFO:[SERVER] ('::1', 50976, 0, 0) is connected
-2021-06-24 17:51:32,235:INFO:[('::1', 50976, 0, 0)] a
-2021-06-24 17:51:32,928:INFO:[('::1', 50976, 0, 0)] v
-2021-06-24 17:51:33,788:INFO:[('::1', 50976, 0, 0)] c
-2021-06-24 17:52:10,415:INFO:[SERVER]  Connection lost with ('::1', 50976, 0, 0)
-2021-06-24 17:52:11,171:INFO:[SERVER] ('::1', 50984, 0, 0) is connected
-2021-06-24 17:52:13,622:INFO:[('::1', 50984, 0, 0)] a
-2021-06-24 17:52:14,237:INFO:[('::1', 50984, 0, 0)] v
-2021-06-24 17:52:14,766:INFO:[('::1', 50984, 0, 0)] c
-2021-06-24 17:52:15,901:INFO:[SERVER]  Connection lost with ('::1', 50984, 0, 0)
-2021-06-24 17:53:20,974:INFO:[SERVER] ('::1', 50998, 0, 0) is connected
-2021-06-24 17:53:20,981:INFO:[SERVER]  Connection lost with ('::1', 50998, 0, 0)
-2021-06-24 17:53:48,143:INFO:[SERVER] ('::1', 51006, 0, 0) is connected
-2021-06-24 17:53:48,157:INFO:[SERVER]  Connection lost with ('::1', 51006, 0, 0)
-2021-06-24 17:53:57,959:INFO:[SERVER] ('::1', 51008, 0, 0) is connected
-2021-06-24 17:53:57,972:INFO:[SERVER]  Connection lost with ('::1', 51008, 0, 0)
-2021-06-24 17:54:03,239:INFO:[SERVER] ('::1', 51010, 0, 0) is connected
-2021-06-24 17:54:03,966:INFO:[('::1', 51010, 0, 0)] a
-2021-06-24 17:54:04,447:INFO:[('::1', 51010, 0, 0)] v
-2021-06-24 17:54:05,203:INFO:[('::1', 51010, 0, 0)] c
-2021-06-24 17:54:06,153:INFO:[SERVER]  Connection lost with ('::1', 51010, 0, 0)
-2021-06-24 17:54:34,013:INFO:[SERVER] ('::1', 51020, 0, 0) is connected
-2021-06-24 17:54:34,029:INFO:[SERVER]  Connection lost with ('::1', 51020, 0, 0)
-2021-06-24 17:54:53,803:INFO:[SERVER] ('::1', 51028, 0, 0) is connected
-2021-06-24 17:54:53,818:INFO:[SERVER]  Connection lost with ('::1', 51028, 0, 0)
-2021-06-24 17:56:55,579:INFO:[SERVER] ('::1', 51052, 0, 0) is connected
-2021-06-24 17:56:56,349:INFO:[('::1', 51052, 0, 0)] a
-2021-06-24 17:56:56,802:INFO:[('::1', 51052, 0, 0)] v
-2021-06-24 17:56:57,325:INFO:[('::1', 51052, 0, 0)] c
-2021-06-24 17:56:58,202:INFO:[SERVER]  Connection lost with ('::1', 51052, 0, 0)
-2021-06-24 17:57:09,268:INFO:[SERVER] ('::1', 51058, 0, 0) is connected
+2021-06-25 16:32:48,093:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
+2021-06-25 16:32:51,459:INFO:[SERVER] ('::1', 49088, 0, 0) is connected
+2021-06-25 16:32:54,921:INFO:[('::1', 49088, 0, 0)] a
+2021-06-25 16:32:55,754:INFO:[('::1', 49088, 0, 0)] v
+2021-06-25 16:32:56,392:INFO:[('::1', 49088, 0, 0)] c
+2021-06-25 16:32:57,147:INFO:Connection lost with ('::1', 49088, 0, 0)
+2021-06-25 16:33:02,426:INFO:[SERVER] ('::1', 49092, 0, 0) is connected
+2021-06-25 16:33:05,944:INFO:Connection lost with ('::1', 49092, 0, 0)
+2021-06-25 16:33:15,834:INFO:[SERVER] ('::1', 49096, 0, 0) is connected
+2021-06-25 16:33:19,819:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
+2021-06-25 16:33:22,132:INFO:[SERVER] ('::1', 49098, 0, 0) is connected
+2021-06-25 16:33:24,474:INFO:[SERVER] ('::1', 49100, 0, 0) is connected
+2021-06-25 16:33:27,099:INFO:[('::1', 49098, 0, 0)] a
+2021-06-25 16:33:27,753:INFO:[('::1', 49098, 0, 0)] v
+2021-06-25 16:33:28,416:INFO:[('::1', 49098, 0, 0)] c
+2021-06-25 16:33:28,617:INFO:Connection lost with ('::1', 49098, 0, 0)
+2021-06-25 16:33:30,835:INFO:[SERVER] ('::1', 49104, 0, 0) is connected
+2021-06-25 16:33:32,528:INFO:[('::1', 49104, 0, 0)] a
+2021-06-25 16:33:32,880:INFO:[('::1', 49104, 0, 0)] v
+2021-06-25 16:33:33,297:INFO:[('::1', 49104, 0, 0)] c
+2021-06-25 16:33:34,414:INFO:Connection lost with ('::1', 49104, 0, 0)
+2021-06-25 21:46:59,119:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
+2021-06-25 21:47:15,976:INFO:[SERVER] ('::1', 51180, 0, 0) is connected
+2021-06-25 21:47:17,856:INFO:[('::1', 51180, 0, 0)] a
+2021-06-25 21:47:20,192:INFO:[('::1', 51180, 0, 0)] v
+2021-06-25 21:47:22,458:INFO:[('::1', 51180, 0, 0)] x
+2021-06-25 21:47:44,683:INFO:Connection lost with ('::1', 51180, 0, 0)
+2021-06-25 21:47:45,548:INFO:[SERVER] ('::1', 51182, 0, 0) is connected
+2021-06-25 21:48:24,473:INFO:Connection lost with ('::1', 51182, 0, 0)
+2021-06-25 21:48:25,309:INFO:[SERVER] ('::1', 51194, 0, 0) is connected
+2021-06-25 21:48:26,336:INFO:[('::1', 51194, 0, 0)] a
+2021-06-25 21:48:26,920:INFO:[('::1', 51194, 0, 0)] v
+2021-06-25 21:48:27,537:INFO:Connection lost with ('::1', 51194, 0, 0)
+2021-06-25 21:49:06,686:INFO:[SERVER] ('::1', 51208, 0, 0) is connected
+2021-06-25 21:49:09,769:INFO:Connection lost with ('::1', 51208, 0, 0)
+2021-06-25 21:49:53,252:INFO:[SERVER] ('::1', 51216, 0, 0) is connected
+2021-06-25 21:49:55,962:INFO:Connection lost with ('::1', 51216, 0, 0)
+2021-06-25 21:49:56,697:INFO:[SERVER] ('::1', 51220, 0, 0) is connected
+2021-06-25 21:49:57,320:INFO:[('::1', 51220, 0, 0)] a
+2021-06-25 21:49:57,784:INFO:[('::1', 51220, 0, 0)] v
+2021-06-25 21:49:58,184:INFO:[('::1', 51220, 0, 0)] c
+2021-06-25 21:49:58,389:INFO:Connection lost with ('::1', 51220, 0, 0)
+2021-06-25 21:49:59,672:INFO:[SERVER] ('::1', 51224, 0, 0) is connected
+2021-06-25 21:50:00,328:INFO:[('::1', 51224, 0, 0)] a
+2021-06-25 21:50:00,688:INFO:[('::1', 51224, 0, 0)] v
+2021-06-25 21:50:01,694:INFO:Connection lost with ('::1', 51224, 0, 0)
+2021-06-27 19:20:35,813:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
+2021-06-27 19:20:45,547:INFO:[SERVER] ('::1', 53552, 0, 0) is connected
+2021-06-27 19:20:47,014:INFO:[('::1', 53552, 0, 0)] a
+2021-06-27 19:20:47,959:INFO:[('::1', 53552, 0, 0)] b
+2021-06-27 19:20:48,750:INFO:[('::1', 53552, 0, 0)] v
+2021-06-27 19:20:49,365:INFO:[('::1', 53552, 0, 0)] c
+2021-06-27 19:20:50,149:INFO:[('::1', 53552, 0, 0)] a
+2021-06-27 19:20:50,961:INFO:[('::1', 53552, 0, 0)] f
+2021-06-27 19:20:51,541:INFO:[('::1', 53552, 0, 0)] qw
+2021-06-27 19:20:54,528:INFO:Connection lost with ('::1', 53552, 0, 0)
+2021-06-27 19:21:06,983:INFO:[SERVER] ('::1', 53554, 0, 0) is connected
+2021-06-27 19:21:09,016:INFO:Connection lost with ('::1', 53554, 0, 0)
+2021-06-27 19:21:10,652:INFO:[SERVER] ('::1', 53556, 0, 0) is connected
+2021-06-27 22:34:11,248:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
+2021-06-27 22:34:35,543:INFO:[SERVER] ('::1', 43566, 0, 0) is connected
+2021-06-27 22:34:35,568:INFO:Connection lost with ('::1', 43566, 0, 0)
+2021-06-27 22:35:06,697:INFO:[SERVER] ('::1', 43568, 0, 0) is connected
+2021-06-27 22:35:06,710:INFO:Connection lost with ('::1', 43568, 0, 0)
+2021-06-27 22:35:15,845:INFO:[SERVER] ('::1', 43574, 0, 0) is connected
+2021-06-27 22:35:15,853:INFO:Connection lost with ('::1', 43574, 0, 0)
+2021-06-27 22:35:42,820:INFO:[SERVER] ('::1', 43578, 0, 0) is connected
+2021-06-27 22:35:42,838:INFO:Connection lost with ('::1', 43578, 0, 0)
+2021-06-27 22:36:21,753:INFO:[SERVER] ('::1', 43586, 0, 0) is connected
+2021-06-27 22:36:21,770:INFO:Connection lost with ('::1', 43586, 0, 0)
+2021-06-27 22:36:28,102:INFO:[SERVER] ('::1', 43588, 0, 0) is connected
+2021-06-27 22:36:28,115:INFO:Connection lost with ('::1', 43588, 0, 0)
+2021-06-27 22:36:56,774:INFO:[SERVER] ('::1', 43596, 0, 0) is connected
+2021-06-27 22:36:56,792:INFO:Connection lost with ('::1', 43596, 0, 0)
+2021-06-27 22:37:22,404:INFO:[SERVER] ('::1', 43606, 0, 0) is connected
+2021-06-27 22:37:22,417:INFO:Connection lost with ('::1', 43606, 0, 0)
+2021-06-27 22:37:55,312:INFO:[SERVER] ('::1', 43614, 0, 0) is connected
+2021-06-27 22:37:55,324:INFO:Connection lost with ('::1', 43614, 0, 0)
+2021-06-27 22:38:33,356:INFO:[SERVER] ('::1', 43626, 0, 0) is connected
+2021-06-27 22:38:33,367:INFO:Connection lost with ('::1', 43626, 0, 0)
+2021-06-27 22:38:51,778:INFO:[SERVER] ('::1', 43636, 0, 0) is connected
+2021-06-27 22:38:51,788:INFO:Connection lost with ('::1', 43636, 0, 0)
+2021-06-27 22:38:54,599:INFO:[SERVER] ('::1', 43640, 0, 0) is connected
+2021-06-27 22:38:54,612:INFO:Connection lost with ('::1', 43640, 0, 0)
+2021-06-27 22:39:08,302:INFO:[SERVER] ('::1', 43646, 0, 0) is connected
+2021-06-27 22:39:08,316:INFO:Connection lost with ('::1', 43646, 0, 0)
+2021-06-27 22:39:20,973:INFO:[SERVER] ('::1', 43656, 0, 0) is connected
+2021-06-27 22:39:20,984:INFO:Connection lost with ('::1', 43656, 0, 0)
+2021-06-27 22:39:31,705:INFO:[SERVER] ('::1', 43662, 0, 0) is connected
+2021-06-27 22:39:31,714:INFO:Connection lost with ('::1', 43662, 0, 0)
+2021-06-27 22:40:06,336:INFO:[SERVER] ('::1', 43670, 0, 0) is connected
+2021-06-27 22:40:06,341:INFO:Connection lost with ('::1', 43670, 0, 0)
+2021-06-27 22:40:17,448:INFO:[SERVER] ('::1', 43676, 0, 0) is connected
+2021-06-27 22:40:20,554:INFO:[('::1', 43676, 0, 0)] dadaw
+2021-06-27 22:40:23,557:INFO:[('::1', 43676, 0, 0)] dadaw
+2021-06-27 22:40:26,558:INFO:[('::1', 43676, 0, 0)] dadaw
+2021-06-27 22:40:29,561:INFO:[('::1', 43676, 0, 0)] dadaw
+2021-06-27 22:40:32,564:INFO:[('::1', 43676, 0, 0)] dadaw
+2021-06-27 22:40:35,568:INFO:[('::1', 43676, 0, 0)] dadaw
+2021-06-27 22:40:38,571:INFO:[('::1', 43676, 0, 0)] dadaw
+2021-06-27 22:41:06,422:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
+2021-06-27 22:41:08,285:INFO:[SERVER] ('::1', 43688, 0, 0) is connected
+2021-06-27 22:41:11,397:INFO:[('::1', 43688, 0, 0)] dadaw
+2021-06-27 22:41:14,400:INFO:[('::1', 43688, 0, 0)] dadaw
+2021-06-27 22:41:17,404:INFO:[('::1', 43688, 0, 0)] dadaw
+2021-06-27 22:43:19,414:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
+2021-06-27 22:43:21,586:INFO:[SERVER] ('::1', 43716, 0, 0) is connected
+2021-06-27 22:43:21,597:INFO:Connection lost with ('::1', 43716, 0, 0)
+2021-06-27 23:33:04,261:INFO:[SERVER] ('::1', 43818, 0, 0) is connected
+2021-06-27 23:33:05,227:INFO:[('::1', 43818, 0, 0)] a
+2021-06-27 23:33:05,706:INFO:[('::1', 43818, 0, 0)] v
+2021-06-27 23:33:06,304:INFO:[('::1', 43818, 0, 0)] c
+2021-06-27 23:33:07,180:INFO:Connection lost with ('::1', 43818, 0, 0)
+2021-06-28 05:22:51,652:INFO:[STARTIG] Server is running in ('127.0.0.1', 5051)
+2021-06-28 05:23:02,598:INFO:[SERVER] ('::1', 46058, 0, 0) is connected
+2021-06-28 05:23:03,447:INFO:[('::1', 46058, 0, 0)] a
+2021-06-28 05:23:03,994:INFO:[('::1', 46058, 0, 0)] v
+2021-06-28 05:23:04,541:INFO:[('::1', 46058, 0, 0)] c
+2021-06-28 05:23:05,312:INFO:Connection lost with ('::1', 46058, 0, 0)
+2021-06-28 05:23:06,844:INFO:[SERVER] ('::1', 46060, 0, 0) is connected
+2021-06-28 05:23:07,357:INFO:[('::1', 46060, 0, 0)] a
+2021-06-28 05:23:07,818:INFO:[('::1', 46060, 0, 0)] v
+2021-06-28 05:23:09,044:INFO:Connection lost with ('::1', 46060, 0, 0)
+2021-06-28 05:23:14,680:INFO:[SERVER] ('::1', 46062, 0, 0) is connected
+2021-06-28 05:36:37,112:INFO:[STARTIG] Server is running in ('::1', 5051, 0, 0)
+2021-06-28 05:37:01,217:INFO:[SERVER] ('::1', 46226, 0, 0) is connected
+2021-06-28 05:37:02,191:INFO:[('::1', 46226, 0, 0)] a
+2021-06-28 05:37:02,614:INFO:[('::1', 46226, 0, 0)] v
+2021-06-28 05:37:02,996:INFO:[('::1', 46226, 0, 0)] c
+2021-06-28 05:37:03,542:INFO:Connection lost with ('::1', 46226, 0, 0)
+2021-06-28 05:37:04,701:INFO:[SERVER] ('::1', 46228, 0, 0) is connected
+2021-06-28 05:37:06,666:INFO:Connection lost with ('::1', 46228, 0, 0)
