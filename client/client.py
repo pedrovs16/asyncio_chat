@@ -1,5 +1,6 @@
 import asyncio
 from asyncio.tasks import gather
+import sys
 import aioconsole
 import argparse
 
@@ -15,11 +16,9 @@ async def read_task(reader):
         try:
             message = await read_message(reader)
             print(f"{message.decode()}")
-            # check_connection_message = " "
-            # writer.write(check_connection_message.encode())
-            # await writer.drain()
-        except Exception as error:
-            print(error)
+            if len(message) == 0:
+                sys.exit()
+        except Exception:
             break
 
 
@@ -29,20 +28,17 @@ async def read_message(reader):
 
 
 async def write_task(writer):
-    message = ""
-    try:
-        while message.upper() != "EXIT":
-            message = await handle_message(writer)
-        writer.close()
-    except Exception as error:
-        print(error)
-        writer.close()
-
-
-async def handle_message(writer):
-    message = await write_input()
-    await send_message(message, writer)
-    return message
+    while True:
+        try:
+            message = await write_input()
+            await send_message(message, writer)
+            if message.upper() == "EXIT":
+                writer.close()
+                break
+        except Exception:
+            writer.close()
+            break
+    sys.exit()
 
 
 async def send_message(message, writer):
@@ -59,18 +55,19 @@ async def main():
         reader, writer = await asyncio.open_connection("localhost", 5051)
         print(f"Joined to the server")
         print('To disconnect type "EXIT"')
-    except Exception:
+    except OSError:
         print("Server not found")
     else:
-        if args.read:
-            await read_task(reader)
-        else:
-            await gather(read_task(reader), write_task(writer))
-        # if not args.read:
-        #     asyncio.create_task(write_task(writer))
-        # asyncio.create_task(read_task(reader))
+        if not args.read:
+            asyncio.create_task(write_task(writer))
+        asyncio.create_task(read_task(reader))
 
 
 if __name__ == "__main__":
     args = parse_args()
-    asyncio.run(main())
+    loop = asyncio.get_event_loop()
+    try:
+        loop.run_until_complete(main())
+        loop.run_forever()
+    except KeyboardInterrupt:
+        loop.close()
