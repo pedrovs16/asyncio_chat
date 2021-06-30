@@ -27,6 +27,7 @@ def test_write_message():
 def test_add_writer(writer):
     server.add_writer(writer)
     assert writer in server.writers_list
+    server.del_writer(writer)
 
 
 def test_del_writer(writer):
@@ -41,6 +42,7 @@ async def test_broadcast(writer):
     message = "test_message"
     await server.broadcast(message)
     writer.write.assert_called_with(message.encode())
+    server.del_writer(writer)
 
 
 @pytest.mark.asyncio
@@ -57,6 +59,7 @@ async def test_handle_message(writer, reader):
     server.add_writer(writer)
     await server.handle_message(reader, "localhost")
     writer.write.assert_called_with(message.encode())
+    server.del_writer(writer)
 
 
 @pytest.mark.asyncio
